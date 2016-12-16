@@ -1,0 +1,65 @@
+/* 
+ *  Carousel's Container CSS File
+ *  v1.0.0
+ */
+.add-slide{
+    padding:0 12px 12px
+}
+
+/* Slider Inline & Close Icons */
+#nbc-slider-container {
+    width: 100%;
+    
+}
+#nbc-slider-container ul{
+    overflow: hidden;
+}
+#nbc-slider-container ul li
+{
+    list-style: none;
+    position: relative;
+    padding: 15px;
+    width: 96%;
+    display: inline-block;
+    
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    
+    margin-bottom: 15px;
+}
+#nbc-slider-container ul li table {
+    width: 100%;
+}
+#nbc-slider-container ul li table tbody tr td {
+    width: 20%;
+}
+#nbc-slider-container ul li table tbody tr td:nth-child(2) {
+    width: 80%;
+    vertical-align: top;
+}
+#nbc-slider-container ul li table tbody tr td:nth-child(2) input,
+#nbc-slider-container ul li table tbody tr td:nth-child(2) textarea {
+    width: 100%;
+}
+#nbc-slider-container .delete {
+    position: absolute;
+    top: 2px;
+    right: 6px;
+}
+#nbc-slider-container .delete i{
+    color: #333;
+}
+#nbc-slider-container .delete:hover i{
+    color: #ff0000;
+}
+#neo_bootstrap_carousel_setting_form {
+    background-color: #fff;
+    padding: 0 25px;
+}
+#copyright a{
+    text-decoration: none;
+    color: #19b98a;
+}
+#copyright a img{
+    vertical-align: middle;
+}
